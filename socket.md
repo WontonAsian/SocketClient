@@ -1,6 +1,6 @@
 # Socket Client
 
-`import java.io.*;
+```import java.io.*;
 import java.net.*;
 
 public class SocketClient {
@@ -19,7 +19,7 @@ public class SocketClient {
         } catch (IOException ex) { System.err.println(ex);
         }
     }
-}`
+}```
 
 ## server djxmmx.net / port 17 (Quote of the Day service)
 
