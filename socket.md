@@ -19,7 +19,8 @@ public class SocketClient {
         } catch (IOException ex) { System.err.println(ex);
         }
     }
-}```
+}
+```
 
 ## server djxmmx.net / port 17 (Quote of the Day service)
 
@@ -36,6 +37,7 @@ Result: 60045 23-04-11 05:08:21 50 0 0 384.9 UTC(NIST) *
 ## server tcpbin.com / port 4242 or 34.230.40.69 / port 30000 (Echo service)
 
 java SocketClient.java tcpbin.com 4242 "hello"
+
 
 Results: hello
 
